@@ -18,7 +18,7 @@ function classNames(...classes: string[]) {
 
 export default function Navigation() {
   return (
-    <Disclosure as="nav" className="bg-slate-800 border-b">
+    <Disclosure as="nav" className="absolute inset-x-0 top-0 z-50 bg-white-800">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -38,7 +38,7 @@ export default function Navigation() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch">
                 <div className="flex flex-shrink-0 items-center">
                   <Image 
-                    src="/mercadito-light.svg"
+                    src="/mercadito-logo.svg"
                     width={32}
                     height={32}
                     alt="El Mercadito Grab & Go"

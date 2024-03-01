@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { opensans } from "./ui/fonts";
 import "./globals.css";
 import Navigation from "./ui/navigation";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "./ui/footer";
 
 export const metadata: Metadata = {
   title: "El Mercadito Grab & Go",
@@ -17,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${opensans.className} antialiased`}>
         <Navigation />
         {children}
       </body>
