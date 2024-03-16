@@ -1,3 +1,5 @@
 export default function Menu() {
-    return <p>Menu working</p>
+    return (
+        <p>Works!</p>
+    )
 }
