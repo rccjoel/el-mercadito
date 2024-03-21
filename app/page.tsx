@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Navigation from './ui/navigation';
 
 export default function Home() {
 

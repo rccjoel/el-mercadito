@@ -18,7 +18,7 @@ function classNames(...classes: string[]) {
 
 export default function Navigation() {
   return (
-    <Disclosure as="nav" className="inset-x-0 top-0 z-50">
+    <Disclosure as="nav" className="absolute inset-x-0 top-0 z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
