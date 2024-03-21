@@ -22,10 +22,10 @@ export default function NavLinks() {
             key={link.name}
             href={link.href}
             className={clsx(
-              'text-gray-300 hover:bg-gray-700 hover:text-white',
-              'rounded-md px-3 py-2 text-sm font-medium',
+              'text-slate-800 hover:text-green-600',
+              'rounded-md px-3 py-2 text-base font-semibold',
               {
-                'bg-zinc-900 text-white': pathname === link.href,
+                'text-green-600': pathname === link.href,
               },
             )}
             aria-current={link.current ? 'page' : undefined}

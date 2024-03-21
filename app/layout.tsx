@@ -1,5 +1,6 @@
 import '@/app/globals.css';
 import { opensans } from "@/app/ui/fonts";
+import Navigation from './ui/navigation';
 
 export default function RootLayout({
   children,
@@ -8,7 +9,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${opensans.className} antialiased`}>{children}</body>
+      <body className={`${opensans.className} antialiased`}>
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }
