@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const stats = [
-  { id: 1, name: "Mountain-Kissed Colombian Beans Meet Ethiopia's Earthy Treasures", value: 'Globally Sourced Beans' },
+  { id: 1, name: 'Mountain-Kissed Colombian Beans Meet Ethiopia Earthy Treasures', value: 'Globally Sourced Beans' },
   { id: 2, name: 'Assets under holding', value: '$119 trillion' },
 ]
 
