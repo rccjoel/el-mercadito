@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const stats = [
-  { id: 1, name: 'Colombian Mountain Highs to Ethiopian Fertile Fields', value: 'Globally Sourced Beans' },
+  { id: 1, name: "Mountain-Kissed Colombian Beans Meet Ethiopia's Earthy Treasures", value: 'Globally Sourced Beans' },
   { id: 2, name: 'Assets under holding', value: '$119 trillion' },
 ]
 
@@ -37,7 +37,7 @@ export default function Home() {
                     />
             </div>
           </div>
-          <div className="bg-green-600/10 py-12 sm:py-16">
+          <div className="bg-white py-12 sm:py-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center sm:grid-cols-2">
                 {stats.map((stat) => (
