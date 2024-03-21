@@ -29,8 +29,8 @@ export default function About() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                El Mercadito Grab & Go, a vibrant splash of color against the red-brick buildings, was Tatiana's dream come true.
-                It wasn't just a coffee shop; it was a bridge between her past and present, a testament to the resilience of
+                El Mercadito Grab & Go, a vibrant splash of color against the red-brick buildings, was Tatianas dream come true.
+                It was not just a coffee shop; it was a bridge between her past and present, a testament to the resilience of
                 family and flavor. Every morning, the air crackled with the warm greetings of regulars, a mix of Leamington locals
                 and Colombian transplants drawn by the promise of a taste of home.
               </p>
