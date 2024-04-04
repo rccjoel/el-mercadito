@@ -29,7 +29,7 @@ const features = [
 
 export default function Contact() {
   return (
-    <div className="bg-white py-12 sm:py-16">
+    <div className="py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-green-600">Get in Touch</h2>

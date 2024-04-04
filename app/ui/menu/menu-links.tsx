@@ -6,7 +6,7 @@ import clsx from 'clsx';
 
 const links = [
   { 
-    name: 'Coffee',
+    name: 'Drinks',
     href: '/menu/coffee'
   },
   {
@@ -28,9 +28,9 @@ export default function MenuLinks() {
           <Link
             key={link.name}
             href={link.href}
-            className={clsx("flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3",
+            className={clsx("flex h-[48px] grow items-center justify-center gap-2 p-3 text-base font-semibold hover:text-green-700 md:flex-none md:justify-start md:p-2 md:px-3",
                             {
-                              'bg-sky-100 text-blue-600': pathname === link.href,
+                              'border-b-4 md:border-l-4 md:border-b-0 border-green-700': pathname === link.href,
                             },
             )}
           >
