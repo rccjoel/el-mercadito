@@ -1,3 +1,5 @@
+import Footer from "./ui/footer";
+
 export default function Home() {
   return (
     <div className="relative overflow-hidden bg-white">

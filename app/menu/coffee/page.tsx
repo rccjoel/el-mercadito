@@ -7,7 +7,7 @@ const products = [
       type: 'coffee-h',
       href: '#',
       price: '$3.75',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+      imageSrc: '/drinks/americano.jpg',
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
     {
@@ -16,7 +16,7 @@ const products = [
       type: 'coffee-h',
       href: '#',
       price: '$4.50',
-      imageSrc: 'https://images.unsplash.com/photo-1568046562322-0bbc869368ba?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imageSrc: '/drinks/latte.jpg',
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
@@ -25,7 +25,7 @@ const products = [
       type: 'coffee-h',
       href: '#',
       price: '$4.50',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+      imageSrc: '/drinks/cappuccino.jpg',
       imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
     },
     {
@@ -34,7 +34,7 @@ const products = [
       type: 'coffee-h',
       href: '#',
       price: '$3.00',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+      imageSrc: '/drinks/espresso.jpg',
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
@@ -42,8 +42,8 @@ const products = [
       name: 'Iced Latte',
       type: 'coffee-c',
       href: '#',
-      price: '$3.75',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+      price: '$5.00',
+      imageSrc: '/drinks/iced-latte.jpg',
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
     {
@@ -51,8 +51,8 @@ const products = [
       name: 'Iced Cappuccino',
       type: 'coffee-c',
       href: '#',
-      price: '$4.50',
-      imageSrc: 'https://images.unsplash.com/photo-1568046562322-0bbc869368ba?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      price: '$5.00',
+      imageSrc: '/drinks/iced-cappuccino.jpg',
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
@@ -61,7 +61,7 @@ const products = [
       type: 'others',
       href: '#',
       price: '$4.50',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+      imageSrc: '/drinks/lemonade.jpg',
       imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
     },
     {
@@ -69,8 +69,8 @@ const products = [
       name: 'Mango Shake',
       type: 'others',
       href: '#',
-      price: '$3.00',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+      price: '$6.50',
+      imageSrc: '/drinks/mango-shake.jpg',
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
@@ -79,7 +79,7 @@ const products = [
       type: 'coffee-h',
       href: '#',
       price: '$4.50',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+      imageSrc: '/drinks/flat-white.jpg',
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     }
   ]

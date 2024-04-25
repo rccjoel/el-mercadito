@@ -14,8 +14,8 @@ const links = [
     href: '/menu/breakfast'
   },
   {
-    name: 'Tapas',
-    href: '/menu/tapas'
+    name: 'Bakery',
+    href: '/menu/bakery'
   }
 ]
 
