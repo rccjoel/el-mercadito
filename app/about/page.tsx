@@ -35,7 +35,7 @@ export default function About() {
                 and Colombian transplants drawn by the promise of a taste of home.
               </p>
               <p className="mt-8">
-                Tatiana's journey to creating El Mercadito was one fueled by passion and perseverance. Born and raised in Colombia, 
+                Tatiana&apos;s journey to creating El Mercadito was one fueled by passion and perseverance. Born and raised in Colombia, 
                 she grew up surrounded by the rich flavors and vibrant colors of her homeland. However, life took her on a journey 
                 far from her roots, leading her to Leamington, where she found herself yearning for a taste of home amidst the unfamiliar 
                 surroundings.
