@@ -1,4 +1,4 @@
-import { UserIcon, FingerPrintIcon, LockClosedIcon, MapPinIcon } from '@heroicons/react/24/outline'
+import { ClockIcon, LockClosedIcon, MapPinIcon } from '@heroicons/react/24/outline'
 import Careers from './careers'
 
 const features = [
@@ -9,10 +9,10 @@ const features = [
     icon: MapPinIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Our Hours',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-    icon: LockClosedIcon,
+      '8:00 a.m. - 7:00 p.m.',
+    icon: ClockIcon,
   },
 ]
 
